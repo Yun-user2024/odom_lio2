@@ -26,8 +26,8 @@ public:
     declare_parameter<bool>("publish_tf", true);
     declare_parameter<std::vector<double>>("base_to_livox.translation", {0.1, 0.0, 0.11});
     declare_parameter<std::vector<double>>("base_to_livox.rpy", {-0.034, 0.56395, 0.0});
-    declare_parameter<std::vector<double>>("body_to_livox.translation", {-0.011, -0.02329, 0.04412});
-    declare_parameter<std::vector<double>>("body_to_livox.rpy", {0.0, 0.0, 0.0});
+    declare_parameter<std::vector<double>>("livox_to_body.translation", {-0.012255, -0.016787, 0.050150});
+    declare_parameter<std::vector<double>>("livox_to_body.rpy", {0.0032322401494167274, -0.017154571846166722, 0.003817108262238392});
     declare_parameter<bool>("debug.enable", true);
     declare_parameter<double>("debug.log_period_sec", 1.0);
 
@@ -43,20 +43,17 @@ public:
 
     const auto base_to_livox_translation = get_parameter("base_to_livox.translation").as_double_array();
     const auto base_to_livox_rpy = get_parameter("base_to_livox.rpy").as_double_array();
-    const auto body_to_livox_translation = get_parameter("body_to_livox.translation").as_double_array();
-    const auto body_to_livox_rpy = get_parameter("body_to_livox.rpy").as_double_array();
+    const auto livox_to_body_translation = get_parameter("livox_to_body.translation").as_double_array();
+    const auto livox_to_body_rpy = get_parameter("livox_to_body.rpy").as_double_array();
 
     validate_vector_size(base_to_livox_translation, "base_to_livox.translation");
     validate_vector_size(base_to_livox_rpy, "base_to_livox.rpy");
-    validate_vector_size(body_to_livox_translation, "body_to_livox.translation");
-    validate_vector_size(body_to_livox_rpy, "body_to_livox.rpy");
+    validate_vector_size(livox_to_body_translation, "livox_to_body.translation");
+    validate_vector_size(livox_to_body_rpy, "livox_to_body.rpy");
 
     base_to_livox_ = make_transform(base_to_livox_translation, base_to_livox_rpy);
-    body_to_livox_ = make_transform(body_to_livox_translation, body_to_livox_rpy);
-
-    const tf2::Vector3 body_to_livox_translation_only = body_to_livox_.getOrigin();
-    const tf2::Vector3 livox_to_base_translation_only = -base_to_livox_.getOrigin();
-    body_to_base_translation_ = body_to_livox_translation_only + livox_to_base_translation_only;
+    livox_to_body_ = make_transform(livox_to_body_translation, livox_to_body_rpy);
+    input_child_to_output_child_ = livox_to_body_.inverse() * base_to_livox_.inverse();
 
     odom_publisher_ = create_publisher<nav_msgs::msg::Odometry>(output_odom_topic_, rclcpp::QoS(20));
     odom_subscription_ = create_subscription<nav_msgs::msg::Odometry>(
@@ -219,11 +216,7 @@ private:
     }
 
     const tf2::Transform input_parent_to_child = odom_msg_to_tf(*msg);
-
-    tf2::Transform output_parent_to_base = input_parent_to_child;
-    output_parent_to_base.setOrigin(
-      input_parent_to_child.getOrigin() +
-      tf2::quatRotate(input_parent_to_child.getRotation(), body_to_base_translation_));
+    const tf2::Transform output_parent_to_base = input_parent_to_child * input_child_to_output_child_;
 
     nav_msgs::msg::Odometry output = *msg;
     output.header.frame_id = output_parent_frame_;
@@ -275,8 +268,8 @@ private:
   rclcpp::Time last_debug_log_time_{0, 0, RCL_ROS_TIME};
 
   tf2::Transform base_to_livox_;
-  tf2::Transform body_to_livox_;
-  tf2::Vector3 body_to_base_translation_;
+  tf2::Transform livox_to_body_;
+  tf2::Transform input_child_to_output_child_;
 
   rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_publisher_;
   rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;
