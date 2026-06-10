@@ -1,1 +1,0 @@
-/home/hy/ros_ws/fast_ws/src/FAST_LIO/launch/mapping.launch.py

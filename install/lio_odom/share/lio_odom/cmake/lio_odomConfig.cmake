@@ -1,1 +1,0 @@
-/home/hy/ros_ws/fast_ws/build/lio_odom/ament_cmake_core/lio_odomConfig.cmake

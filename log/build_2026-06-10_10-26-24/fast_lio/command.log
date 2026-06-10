@@ -1,4 +1,0 @@
-Invoking command in '/home/hy/ros_ws/fast_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio
-Invoked command in '/home/hy/ros_ws/fast_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio
-Invoking command in '/home/hy/ros_ws/fast_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hy/ros_ws/fast_ws/build/fast_lio -- -j32 -l32
-Invoked command in '/home/hy/ros_ws/fast_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hy/ros_ws/fast_ws/build/fast_lio -- -j32 -l32

@@ -1,1 +1,0 @@
-/home/hy/ros_ws/fast_ws/build/fast_lio/rosidl_generator_cpp/fast_lio/msg/detail/pose6_d__struct.hpp

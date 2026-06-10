@@ -1,1 +1,0 @@
-/home/hy/ros_ws/fast_ws/src/LIO_odom/launch/fast_lio_with_odom.launch.py

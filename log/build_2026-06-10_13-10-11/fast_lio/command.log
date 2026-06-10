@@ -1,2 +1,0 @@
-Invoking command in '/home/hy/ros_ws/fast_ws/build/fast_lio': /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio
-Invoked command in '/home/hy/ros_ws/fast_ws/build/fast_lio' returned '1': /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio

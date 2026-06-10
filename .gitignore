@@ -1,0 +1,16 @@
+# ROS2 构建和安装目录
+build/
+install/
+log/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# 但保留 README（稍后单独添加）
+!src/LIO_odom/README.md
