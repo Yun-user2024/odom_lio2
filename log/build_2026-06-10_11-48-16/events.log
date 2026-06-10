@@ -1,0 +1,585 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.000528] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.005341] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.006152] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.006823] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hy/ros_ws/fast_ws/build/fast_lio', '--', '-j32', '-l32'], 'cwd': '/home/hy/ros_ws/fast_ws/build/fast_lio', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hy/下载/squashfs-root'), ('CURSOR_EXTENSION_HOST_ROLE', 'agent-exec'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:35099'), ('no_proxy', '127.0.0.1,::1,localhost'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hy'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","messagesFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/nls.messages.json","corruptMarkerFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","_cacheRoot":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60","_corruptedFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/ccache'), ('all_proxy', 'http://127.0.0.1:35099'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CURSOR_RIPGREP_PATH', '/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/homebrew'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hy/ros_ws/livox_ws/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/hy/下载/squashfs-root/usr/lib/:/home/hy/下载/squashfs-root/usr/lib32/:/home/hy/下载/squashfs-root/usr/lib64/:/home/hy/下载/squashfs-root/lib/:/home/hy/下载/squashfs-root/lib/i386-linux-gnu/:/home/hy/下载/squashfs-root/lib/x86_64-linux-gnu/:/home/hy/下载/squashfs-root/lib/aarch64-linux-gnu/:/home/hy/下载/squashfs-root/lib32/:/home/hy/下载/squashfs-root/lib64/:'), ('SOCKS_PROXY', 'socks5://127.0.0.1:34919'), ('HOME', '/home/hy'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/hy/下载'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('PERLLIB', '/home/hy/下载/squashfs-root/usr/share/perl5/:/home/hy/下载/squashfs-root/usr/lib/perl5/:'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-761d0f39-3.6.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/hy/.config/autostart/my-programs.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CURSOR_ORIG_UID', '1000'), ('CURSOR_WORKSPACE_LABEL', 'fast_ws'), ('MANAGERPID', '2354'), ('SYSTEMD_EXEC_PID', '2825'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/conda'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3154'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/composer'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:35099'), ('COLCON_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hy'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:35099'), ('DESKTOP_AUTOSTART_ID', '10951c59279e0edfb178105129545180400000028250016'), ('http_proxy', 'http://127.0.0.1:35099'), ('JOURNAL_STREAM', '8:26068'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/go-mod'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hy'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:34919'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:34919'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/poetry'), ('PATH', '/home/hy/.local/bin:/usr/local/cuda/bin:/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/resources/helpers:/home/hy/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/hy/下载/squashfs-root/usr/bin/:/home/hy/下载/squashfs-root/usr/sbin/:/home/hy/下载/squashfs-root/usr/games/:/home/hy/下载/squashfs-root/bin/:/home/hy/下载/squashfs-root/sbin/:/home/hy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hy:@/tmp/.ICE-unix/2825,unix/hy:/tmp/.ICE-unix/2825'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/yarn'), ('INVOCATION_ID', '2dbe126b5622426bb25ff6704539e9f0'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/uv'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host (agent-exec) fast_ws [4-26]'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/playwright'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/bundle'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/nx'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cypress'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/pnpm-store'), ('GSETTINGS_SCHEMA_DIR', '/home/hy/下载/squashfs-root/usr/share/glib-2.0/schemas/:'), ('AMENT_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install/livox_lidar_rosbag_converter:/home/hy/ros_ws/livox_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/go-build'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:35099'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('socks5_proxy', 'socks5://127.0.0.1:34919'), ('QT_IM_MODULE', 'fcitx'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/npm'), ('PWD', '/home/hy/ros_ws/fast_ws/build/fast_lio'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/gradle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hy/.config/Cursor/CachedData/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60'), ('CLUTTER_IM_MODULE', 'fcitx'), ('CURSOR_ORIG_GID', '1000'), ('XDG_DATA_DIRS', '/home/hy/下载/squashfs-root/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:35099'), ('PYTHONPATH', '/home/hy/ros_ws/livox_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:35099'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/turbo'), ('QT_PLUGIN_PATH', '/home/hy/下载/squashfs-root/usr/lib/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/i386-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/x86_64-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/aarch64-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib32/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib64/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/i386-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/x86_64-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/aarch64-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib32/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib64/qt5/plugins/:'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:35099'; builtin export HTTPS_PROXY='http://127.0.0.1:35099'; builtin export http_proxy='http://127.0.0.1:35099'; builtin export https_proxy='http://127.0.0.1:35099'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:35099'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:35099'; builtin export SOCKS_PROXY='socks5://127.0.0.1:34919'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:34919'; builtin export socks_proxy='socks5://127.0.0.1:34919'; builtin export socks5_proxy='socks5://127.0.0.1:34919'; builtin export ALL_PROXY='http://127.0.0.1:35099'; builtin export all_proxy='http://127.0.0.1:35099'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install/livox_lidar_rosbag_converter:/home/hy/ros_ws/livox_ws/install/livox_ros_driver2:/opt/ros/humble'), ('VSCODE_PID', '3870')]), 'shell': False}
+[0.052989] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__rs\n'}
+[0.053666] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[0.054071] (fast_lio) StdoutLine: {'line': b'[ 13%] Built target fast_lio__cpp\n'}
+[0.061465] (fast_lio) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[0.070296] (fast_lio) StdoutLine: {'line': b'[ 22%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.070516] (fast_lio) StdoutLine: {'line': b'[ 30%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.071019] (fast_lio) StdoutLine: {'line': b'[ 47%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.071073] (fast_lio) StdoutLine: {'line': b'[ 47%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.071343] (fast_lio) StdoutLine: {'line': b'[ 55%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[0.079156] (fast_lio) StdoutLine: {'line': b'[ 63%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.090287] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fastlio_mapping\n'}
+[0.096061] (fast_lio) StdoutLine: {'line': b'[ 63%] Built target fast_lio\n'}
+[0.099885] (-) TimerEvent: {}
+[0.109518] (fast_lio) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\n'}
+[0.109691] (fast_lio) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o\n'}
+[0.111396] (fast_lio) StdoutLine: {'line': b'[ 72%] Built target fast_lio__py\n'}
+[0.129328] (fast_lio) StdoutLine: {'line': b'[ 77%] Built target fast_lio__rosidl_generator_py\n'}
+[0.150866] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[0.150971] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.150999] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[0.180475] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[0.180843] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[0.180902] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[0.181046] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[0.181984] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.182180] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.199345] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[0.199940] (-) TimerEvent: {}
+[0.300066] (-) TimerEvent: {}
+[0.400331] (-) TimerEvent: {}
+[0.500601] (-) TimerEvent: {}
+[0.600939] (-) TimerEvent: {}
+[0.701131] (-) TimerEvent: {}
+[0.801391] (-) TimerEvent: {}
+[0.901546] (-) TimerEvent: {}
+[1.001797] (-) TimerEvent: {}
+[1.102144] (-) TimerEvent: {}
+[1.202402] (-) TimerEvent: {}
+[1.302577] (-) TimerEvent: {}
+[1.402766] (-) TimerEvent: {}
+[1.502916] (-) TimerEvent: {}
+[1.603109] (-) TimerEvent: {}
+[1.703297] (-) TimerEvent: {}
+[1.803506] (-) TimerEvent: {}
+[1.903714] (-) TimerEvent: {}
+[2.003916] (-) TimerEvent: {}
+[2.104176] (-) TimerEvent: {}
+[2.204512] (-) TimerEvent: {}
+[2.304751] (-) TimerEvent: {}
+[2.405002] (-) TimerEvent: {}
+[2.505234] (-) TimerEvent: {}
+[2.605387] (-) TimerEvent: {}
+[2.705653] (-) TimerEvent: {}
+[2.805838] (-) TimerEvent: {}
+[2.906082] (-) TimerEvent: {}
+[3.006289] (-) TimerEvent: {}
+[3.106558] (-) TimerEvent: {}
+[3.206807] (-) TimerEvent: {}
+[3.306996] (-) TimerEvent: {}
+[3.362568] (fast_lio) StderrLine: {'line': b'In file included from /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,\n'}
+[3.362706] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/smart_ptr/detail/yield_k.hpp:23,\n'}
+[3.362736] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,\n'}
+[3.362758] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/smart_ptr/detail/spinlock.hpp:42,\n'}
+[3.362781] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,\n'}
+[3.362804] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/smart_ptr/shared_ptr.hpp:29,\n'}
+[3.362826] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/shared_ptr.hpp:17,\n'}
+[3.362848] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/date_time/microsec_time_clock.hpp:18,\n'}
+[3.362869] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31,\n'}
+[3.362890] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/interprocess/detail/os_thread_functions.hpp:36,\n'}
+[3.362911] (fast_lio) StderrLine: {'line': b'                 from /usr/include/boost/interprocess/sync/file_lock.hpp:26,\n'}
+[3.362932] (fast_lio) StderrLine: {'line': b'                 from /usr/include/pcl-1.12/pcl/io/pcd_io.h:46,\n'}
+[3.362953] (fast_lio) StderrLine: {'line': b'                 from /opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73,\n'}
+[3.362976] (fast_lio) StderrLine: {'line': b'                 from /home/hy/ros_ws/fast_ws/src/FAST_LIO/src/IMU_Processing.hpp:18,\n'}
+[3.362998] (fast_lio) StderrLine: {'line': b'                 from /home/hy/ros_ws/fast_ws/src/FAST_LIO/src/laserMapping.cpp:47:\n'}
+[3.363018] (fast_lio) StderrLine: {'line': b'/usr/include/boost/bind.hpp:36:1: note: \xe2\x80\x98#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\xe2\x80\x99\n'}
+[3.363042] (fast_lio) StderrLine: {'line': b'   36 | BOOST_PRAGMA_MESSAGE(\n'}
+[3.363064] (fast_lio) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~\n'}
+[3.407181] (-) TimerEvent: {}
+[3.507362] (-) TimerEvent: {}
+[3.607518] (-) TimerEvent: {}
+[3.707788] (-) TimerEvent: {}
+[3.808021] (-) TimerEvent: {}
+[3.908248] (-) TimerEvent: {}
+[4.008458] (-) TimerEvent: {}
+[4.108761] (-) TimerEvent: {}
+[4.209009] (-) TimerEvent: {}
+[4.309387] (-) TimerEvent: {}
+[4.409603] (-) TimerEvent: {}
+[4.509885] (-) TimerEvent: {}
+[4.610128] (-) TimerEvent: {}
+[4.710482] (-) TimerEvent: {}
+[4.810760] (-) TimerEvent: {}
+[4.910900] (-) TimerEvent: {}
+[5.011086] (-) TimerEvent: {}
+[5.111302] (-) TimerEvent: {}
+[5.211459] (-) TimerEvent: {}
+[5.311657] (-) TimerEvent: {}
+[5.411886] (-) TimerEvent: {}
+[5.512074] (-) TimerEvent: {}
+[5.612366] (-) TimerEvent: {}
+[5.712517] (-) TimerEvent: {}
+[5.812752] (-) TimerEvent: {}
+[5.912951] (-) TimerEvent: {}
+[6.013122] (-) TimerEvent: {}
+[6.113294] (-) TimerEvent: {}
+[6.213465] (-) TimerEvent: {}
+[6.313711] (-) TimerEvent: {}
+[6.413914] (-) TimerEvent: {}
+[6.514118] (-) TimerEvent: {}
+[6.614378] (-) TimerEvent: {}
+[6.714588] (-) TimerEvent: {}
+[6.814797] (-) TimerEvent: {}
+[6.915006] (-) TimerEvent: {}
+[7.015203] (-) TimerEvent: {}
+[7.115369] (-) TimerEvent: {}
+[7.215549] (-) TimerEvent: {}
+[7.315752] (-) TimerEvent: {}
+[7.416004] (-) TimerEvent: {}
+[7.516287] (-) TimerEvent: {}
+[7.616454] (-) TimerEvent: {}
+[7.716646] (-) TimerEvent: {}
+[7.816837] (-) TimerEvent: {}
+[7.917037] (-) TimerEvent: {}
+[8.017266] (-) TimerEvent: {}
+[8.117433] (-) TimerEvent: {}
+[8.217693] (-) TimerEvent: {}
+[8.318066] (-) TimerEvent: {}
+[8.418327] (-) TimerEvent: {}
+[8.518492] (-) TimerEvent: {}
+[8.618695] (-) TimerEvent: {}
+[8.718844] (-) TimerEvent: {}
+[8.819068] (-) TimerEvent: {}
+[8.919339] (-) TimerEvent: {}
+[9.019556] (-) TimerEvent: {}
+[9.119743] (-) TimerEvent: {}
+[9.219934] (-) TimerEvent: {}
+[9.320381] (-) TimerEvent: {}
+[9.420531] (-) TimerEvent: {}
+[9.520717] (-) TimerEvent: {}
+[9.621004] (-) TimerEvent: {}
+[9.721187] (-) TimerEvent: {}
+[9.821358] (-) TimerEvent: {}
+[9.921526] (-) TimerEvent: {}
+[10.021786] (-) TimerEvent: {}
+[10.122034] (-) TimerEvent: {}
+[10.222492] (-) TimerEvent: {}
+[10.322781] (-) TimerEvent: {}
+[10.423044] (-) TimerEvent: {}
+[10.523250] (-) TimerEvent: {}
+[10.623442] (-) TimerEvent: {}
+[10.723648] (-) TimerEvent: {}
+[10.823869] (-) TimerEvent: {}
+[10.924138] (-) TimerEvent: {}
+[11.024366] (-) TimerEvent: {}
+[11.124579] (-) TimerEvent: {}
+[11.224863] (-) TimerEvent: {}
+[11.325166] (-) TimerEvent: {}
+[11.425468] (-) TimerEvent: {}
+[11.525753] (-) TimerEvent: {}
+[11.626033] (-) TimerEvent: {}
+[11.726281] (-) TimerEvent: {}
+[11.826462] (-) TimerEvent: {}
+[11.926747] (-) TimerEvent: {}
+[12.026972] (-) TimerEvent: {}
+[12.127272] (-) TimerEvent: {}
+[12.227521] (-) TimerEvent: {}
+[12.327721] (-) TimerEvent: {}
+[12.427964] (-) TimerEvent: {}
+[12.528251] (-) TimerEvent: {}
+[12.628418] (-) TimerEvent: {}
+[12.728603] (-) TimerEvent: {}
+[12.828828] (-) TimerEvent: {}
+[12.929011] (-) TimerEvent: {}
+[13.029238] (-) TimerEvent: {}
+[13.129475] (-) TimerEvent: {}
+[13.229695] (-) TimerEvent: {}
+[13.330026] (-) TimerEvent: {}
+[13.430472] (-) TimerEvent: {}
+[13.530801] (-) TimerEvent: {}
+[13.631016] (-) TimerEvent: {}
+[13.731242] (-) TimerEvent: {}
+[13.831469] (-) TimerEvent: {}
+[13.931766] (-) TimerEvent: {}
+[14.031954] (-) TimerEvent: {}
+[14.132153] (-) TimerEvent: {}
+[14.232376] (-) TimerEvent: {}
+[14.332586] (-) TimerEvent: {}
+[14.432794] (-) TimerEvent: {}
+[14.533016] (-) TimerEvent: {}
+[14.633189] (-) TimerEvent: {}
+[14.733399] (-) TimerEvent: {}
+[14.833746] (-) TimerEvent: {}
+[14.934355] (-) TimerEvent: {}
+[15.034830] (-) TimerEvent: {}
+[15.135119] (-) TimerEvent: {}
+[15.235369] (-) TimerEvent: {}
+[15.335690] (-) TimerEvent: {}
+[15.436043] (-) TimerEvent: {}
+[15.536393] (-) TimerEvent: {}
+[15.636568] (-) TimerEvent: {}
+[15.736814] (-) TimerEvent: {}
+[15.837005] (-) TimerEvent: {}
+[15.937229] (-) TimerEvent: {}
+[16.037450] (-) TimerEvent: {}
+[16.137744] (-) TimerEvent: {}
+[16.238013] (-) TimerEvent: {}
+[16.338292] (-) TimerEvent: {}
+[16.438653] (-) TimerEvent: {}
+[16.538950] (-) TimerEvent: {}
+[16.639123] (-) TimerEvent: {}
+[16.739282] (-) TimerEvent: {}
+[16.839438] (-) TimerEvent: {}
+[16.939653] (-) TimerEvent: {}
+[17.039948] (-) TimerEvent: {}
+[17.140114] (-) TimerEvent: {}
+[17.240290] (-) TimerEvent: {}
+[17.340520] (-) TimerEvent: {}
+[17.440740] (-) TimerEvent: {}
+[17.540963] (-) TimerEvent: {}
+[17.641161] (-) TimerEvent: {}
+[17.741393] (-) TimerEvent: {}
+[17.841676] (-) TimerEvent: {}
+[17.941910] (-) TimerEvent: {}
+[18.042183] (-) TimerEvent: {}
+[18.142970] (-) TimerEvent: {}
+[18.243181] (-) TimerEvent: {}
+[18.343395] (-) TimerEvent: {}
+[18.443717] (-) TimerEvent: {}
+[18.544111] (-) TimerEvent: {}
+[18.644361] (-) TimerEvent: {}
+[18.744568] (-) TimerEvent: {}
+[18.844845] (-) TimerEvent: {}
+[18.945100] (-) TimerEvent: {}
+[19.045259] (-) TimerEvent: {}
+[19.145442] (-) TimerEvent: {}
+[19.245709] (-) TimerEvent: {}
+[19.345938] (-) TimerEvent: {}
+[19.446175] (-) TimerEvent: {}
+[19.546366] (-) TimerEvent: {}
+[19.646586] (-) TimerEvent: {}
+[19.746771] (-) TimerEvent: {}
+[19.846979] (-) TimerEvent: {}
+[19.947161] (-) TimerEvent: {}
+[20.047351] (-) TimerEvent: {}
+[20.147567] (-) TimerEvent: {}
+[20.247776] (-) TimerEvent: {}
+[20.348038] (-) TimerEvent: {}
+[20.448228] (-) TimerEvent: {}
+[20.548407] (-) TimerEvent: {}
+[20.648643] (-) TimerEvent: {}
+[20.748852] (-) TimerEvent: {}
+[20.849167] (-) TimerEvent: {}
+[20.949466] (-) TimerEvent: {}
+[21.049663] (-) TimerEvent: {}
+[21.149892] (-) TimerEvent: {}
+[21.250111] (-) TimerEvent: {}
+[21.350323] (-) TimerEvent: {}
+[21.450522] (-) TimerEvent: {}
+[21.550823] (-) TimerEvent: {}
+[21.651062] (-) TimerEvent: {}
+[21.751291] (-) TimerEvent: {}
+[21.851498] (-) TimerEvent: {}
+[21.951772] (-) TimerEvent: {}
+[22.052130] (-) TimerEvent: {}
+[22.152405] (-) TimerEvent: {}
+[22.252631] (-) TimerEvent: {}
+[22.352894] (-) TimerEvent: {}
+[22.453204] (-) TimerEvent: {}
+[22.553420] (-) TimerEvent: {}
+[22.653659] (-) TimerEvent: {}
+[22.754042] (-) TimerEvent: {}
+[22.854311] (-) TimerEvent: {}
+[22.954510] (-) TimerEvent: {}
+[23.054817] (-) TimerEvent: {}
+[23.155214] (-) TimerEvent: {}
+[23.255511] (-) TimerEvent: {}
+[23.355744] (-) TimerEvent: {}
+[23.455991] (-) TimerEvent: {}
+[23.556223] (-) TimerEvent: {}
+[23.656476] (-) TimerEvent: {}
+[23.756745] (-) TimerEvent: {}
+[23.857276] (-) TimerEvent: {}
+[23.957532] (-) TimerEvent: {}
+[24.057809] (-) TimerEvent: {}
+[24.157988] (-) TimerEvent: {}
+[24.258325] (-) TimerEvent: {}
+[24.358541] (-) TimerEvent: {}
+[24.458780] (-) TimerEvent: {}
+[24.559060] (-) TimerEvent: {}
+[24.659419] (-) TimerEvent: {}
+[24.759674] (-) TimerEvent: {}
+[24.859914] (-) TimerEvent: {}
+[24.960209] (-) TimerEvent: {}
+[25.060424] (-) TimerEvent: {}
+[25.160727] (-) TimerEvent: {}
+[25.260986] (-) TimerEvent: {}
+[25.361312] (-) TimerEvent: {}
+[25.461574] (-) TimerEvent: {}
+[25.561842] (-) TimerEvent: {}
+[25.662162] (-) TimerEvent: {}
+[25.762605] (-) TimerEvent: {}
+[25.863018] (-) TimerEvent: {}
+[25.963314] (-) TimerEvent: {}
+[26.063555] (-) TimerEvent: {}
+[26.163737] (-) TimerEvent: {}
+[26.263966] (-) TimerEvent: {}
+[26.364160] (-) TimerEvent: {}
+[26.464364] (-) TimerEvent: {}
+[26.564663] (-) TimerEvent: {}
+[26.665064] (-) TimerEvent: {}
+[26.765423] (-) TimerEvent: {}
+[26.865707] (-) TimerEvent: {}
+[26.966041] (-) TimerEvent: {}
+[27.066258] (-) TimerEvent: {}
+[27.166441] (-) TimerEvent: {}
+[27.266645] (-) TimerEvent: {}
+[27.366856] (-) TimerEvent: {}
+[27.467083] (-) TimerEvent: {}
+[27.567365] (-) TimerEvent: {}
+[27.667539] (-) TimerEvent: {}
+[27.767749] (-) TimerEvent: {}
+[27.867977] (-) TimerEvent: {}
+[27.968250] (-) TimerEvent: {}
+[28.068519] (-) TimerEvent: {}
+[28.168772] (-) TimerEvent: {}
+[28.269006] (-) TimerEvent: {}
+[28.369268] (-) TimerEvent: {}
+[28.469453] (-) TimerEvent: {}
+[28.569665] (-) TimerEvent: {}
+[28.669948] (-) TimerEvent: {}
+[28.770211] (-) TimerEvent: {}
+[28.870574] (-) TimerEvent: {}
+[28.971063] (-) TimerEvent: {}
+[29.071335] (-) TimerEvent: {}
+[29.171613] (-) TimerEvent: {}
+[29.271947] (-) TimerEvent: {}
+[29.372243] (-) TimerEvent: {}
+[29.472558] (-) TimerEvent: {}
+[29.572839] (-) TimerEvent: {}
+[29.673125] (-) TimerEvent: {}
+[29.773423] (-) TimerEvent: {}
+[29.873698] (-) TimerEvent: {}
+[29.973908] (-) TimerEvent: {}
+[30.074123] (-) TimerEvent: {}
+[30.174390] (-) TimerEvent: {}
+[30.274636] (-) TimerEvent: {}
+[30.374857] (-) TimerEvent: {}
+[30.475012] (-) TimerEvent: {}
+[30.575185] (-) TimerEvent: {}
+[30.675426] (-) TimerEvent: {}
+[30.775622] (-) TimerEvent: {}
+[30.875835] (-) TimerEvent: {}
+[30.976118] (-) TimerEvent: {}
+[31.076384] (-) TimerEvent: {}
+[31.176616] (-) TimerEvent: {}
+[31.276860] (-) TimerEvent: {}
+[31.377113] (-) TimerEvent: {}
+[31.477305] (-) TimerEvent: {}
+[31.577500] (-) TimerEvent: {}
+[31.677678] (-) TimerEvent: {}
+[31.777887] (-) TimerEvent: {}
+[31.878094] (-) TimerEvent: {}
+[31.978383] (-) TimerEvent: {}
+[32.078551] (-) TimerEvent: {}
+[32.178726] (-) TimerEvent: {}
+[32.278945] (-) TimerEvent: {}
+[32.379289] (-) TimerEvent: {}
+[32.479489] (-) TimerEvent: {}
+[32.579735] (-) TimerEvent: {}
+[32.679917] (-) TimerEvent: {}
+[32.780133] (-) TimerEvent: {}
+[32.880263] (-) TimerEvent: {}
+[32.980527] (-) TimerEvent: {}
+[33.080951] (-) TimerEvent: {}
+[33.181336] (-) TimerEvent: {}
+[33.281667] (-) TimerEvent: {}
+[33.382142] (-) TimerEvent: {}
+[33.482456] (-) TimerEvent: {}
+[33.582743] (-) TimerEvent: {}
+[33.682991] (-) TimerEvent: {}
+[33.783221] (-) TimerEvent: {}
+[33.883391] (-) TimerEvent: {}
+[33.983609] (-) TimerEvent: {}
+[34.083830] (-) TimerEvent: {}
+[34.184050] (-) TimerEvent: {}
+[34.284236] (-) TimerEvent: {}
+[34.384410] (-) TimerEvent: {}
+[34.484589] (-) TimerEvent: {}
+[34.584791] (-) TimerEvent: {}
+[34.684996] (-) TimerEvent: {}
+[34.785211] (-) TimerEvent: {}
+[34.885378] (-) TimerEvent: {}
+[34.985565] (-) TimerEvent: {}
+[35.085812] (-) TimerEvent: {}
+[35.186032] (-) TimerEvent: {}
+[35.286307] (-) TimerEvent: {}
+[35.386540] (-) TimerEvent: {}
+[35.486746] (-) TimerEvent: {}
+[35.587027] (-) TimerEvent: {}
+[35.687257] (-) TimerEvent: {}
+[35.787483] (-) TimerEvent: {}
+[35.887692] (-) TimerEvent: {}
+[35.987923] (-) TimerEvent: {}
+[36.088139] (-) TimerEvent: {}
+[36.188400] (-) TimerEvent: {}
+[36.288940] (-) TimerEvent: {}
+[36.389551] (-) TimerEvent: {}
+[36.489831] (-) TimerEvent: {}
+[36.590333] (-) TimerEvent: {}
+[36.690661] (-) TimerEvent: {}
+[36.790951] (-) TimerEvent: {}
+[36.891221] (-) TimerEvent: {}
+[36.991463] (-) TimerEvent: {}
+[37.091747] (-) TimerEvent: {}
+[37.191957] (-) TimerEvent: {}
+[37.292160] (-) TimerEvent: {}
+[37.392355] (-) TimerEvent: {}
+[37.492527] (-) TimerEvent: {}
+[37.592757] (-) TimerEvent: {}
+[37.692964] (-) TimerEvent: {}
+[37.793214] (-) TimerEvent: {}
+[37.893389] (-) TimerEvent: {}
+[37.993574] (-) TimerEvent: {}
+[38.093887] (-) TimerEvent: {}
+[38.194079] (-) TimerEvent: {}
+[38.294282] (-) TimerEvent: {}
+[38.394428] (-) TimerEvent: {}
+[38.494577] (-) TimerEvent: {}
+[38.594790] (-) TimerEvent: {}
+[38.694983] (-) TimerEvent: {}
+[38.795161] (-) TimerEvent: {}
+[38.895378] (-) TimerEvent: {}
+[38.995656] (-) TimerEvent: {}
+[39.096073] (-) TimerEvent: {}
+[39.196306] (-) TimerEvent: {}
+[39.296572] (-) TimerEvent: {}
+[39.396792] (-) TimerEvent: {}
+[39.496989] (-) TimerEvent: {}
+[39.597186] (-) TimerEvent: {}
+[39.697334] (-) TimerEvent: {}
+[39.797480] (-) TimerEvent: {}
+[39.897634] (-) TimerEvent: {}
+[39.997890] (-) TimerEvent: {}
+[40.098256] (-) TimerEvent: {}
+[40.198566] (-) TimerEvent: {}
+[40.298914] (-) TimerEvent: {}
+[40.399212] (-) TimerEvent: {}
+[40.499377] (-) TimerEvent: {}
+[40.599544] (-) TimerEvent: {}
+[40.699746] (-) TimerEvent: {}
+[40.799971] (-) TimerEvent: {}
+[40.900239] (-) TimerEvent: {}
+[41.000656] (-) TimerEvent: {}
+[41.094645] (fast_lio) StdoutLine: {'line': b'[ 97%] Linking CXX executable fastlio_mapping\n'}
+[41.100784] (-) TimerEvent: {}
+[41.200978] (-) TimerEvent: {}
+[41.301180] (-) TimerEvent: {}
+[41.401393] (-) TimerEvent: {}
+[41.501571] (-) TimerEvent: {}
+[41.601782] (-) TimerEvent: {}
+[41.701991] (-) TimerEvent: {}
+[41.735888] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[41.744488] (fast_lio) CommandEnded: {'returncode': 0}
+[41.745393] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[41.751515] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hy/ros_ws/fast_ws/build/fast_lio'], 'cwd': '/home/hy/ros_ws/fast_ws/build/fast_lio', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hy/下载/squashfs-root'), ('CURSOR_EXTENSION_HOST_ROLE', 'agent-exec'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:35099'), ('no_proxy', '127.0.0.1,::1,localhost'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hy'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","messagesFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/nls.messages.json","corruptMarkerFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","_cacheRoot":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60","_corruptedFile":"/home/hy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/ccache'), ('all_proxy', 'http://127.0.0.1:35099'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CURSOR_RIPGREP_PATH', '/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/homebrew'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hy/ros_ws/livox_ws/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/hy/下载/squashfs-root/usr/lib/:/home/hy/下载/squashfs-root/usr/lib32/:/home/hy/下载/squashfs-root/usr/lib64/:/home/hy/下载/squashfs-root/lib/:/home/hy/下载/squashfs-root/lib/i386-linux-gnu/:/home/hy/下载/squashfs-root/lib/x86_64-linux-gnu/:/home/hy/下载/squashfs-root/lib/aarch64-linux-gnu/:/home/hy/下载/squashfs-root/lib32/:/home/hy/下载/squashfs-root/lib64/:'), ('SOCKS_PROXY', 'socks5://127.0.0.1:34919'), ('HOME', '/home/hy'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/hy/下载'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('PERLLIB', '/home/hy/下载/squashfs-root/usr/share/perl5/:/home/hy/下载/squashfs-root/usr/lib/perl5/:'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-761d0f39-3.6.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/hy/.config/autostart/my-programs.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CURSOR_ORIG_UID', '1000'), ('CURSOR_WORKSPACE_LABEL', 'fast_ws'), ('MANAGERPID', '2354'), ('SYSTEMD_EXEC_PID', '2825'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/conda'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3154'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/composer'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:35099'), ('COLCON_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hy'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:35099'), ('DESKTOP_AUTOSTART_ID', '10951c59279e0edfb178105129545180400000028250016'), ('http_proxy', 'http://127.0.0.1:35099'), ('JOURNAL_STREAM', '8:26068'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/go-mod'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hy'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:34919'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:34919'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/poetry'), ('PATH', '/home/hy/.local/bin:/usr/local/cuda/bin:/home/hy/下载/squashfs-root/usr/share/cursor/resources/app/resources/helpers:/home/hy/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/hy/下载/squashfs-root/usr/bin/:/home/hy/下载/squashfs-root/usr/sbin/:/home/hy/下载/squashfs-root/usr/games/:/home/hy/下载/squashfs-root/bin/:/home/hy/下载/squashfs-root/sbin/:/home/hy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hy:@/tmp/.ICE-unix/2825,unix/hy:/tmp/.ICE-unix/2825'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/yarn'), ('INVOCATION_ID', '2dbe126b5622426bb25ff6704539e9f0'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/uv'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host (agent-exec) fast_ws [4-26]'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/playwright'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/bundle'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/nx'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/cypress'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/pnpm-store'), ('GSETTINGS_SCHEMA_DIR', '/home/hy/下载/squashfs-root/usr/share/glib-2.0/schemas/:'), ('AMENT_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install/livox_lidar_rosbag_converter:/home/hy/ros_ws/livox_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/go-build'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:35099'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('socks5_proxy', 'socks5://127.0.0.1:34919'), ('QT_IM_MODULE', 'fcitx'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/npm'), ('PWD', '/home/hy/ros_ws/fast_ws/build/fast_lio'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/gradle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hy/.config/Cursor/CachedData/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60'), ('CLUTTER_IM_MODULE', 'fcitx'), ('CURSOR_ORIG_GID', '1000'), ('XDG_DATA_DIRS', '/home/hy/下载/squashfs-root/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:35099'), ('PYTHONPATH', '/home/hy/ros_ws/livox_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:35099'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/turbo'), ('QT_PLUGIN_PATH', '/home/hy/下载/squashfs-root/usr/lib/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/i386-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/x86_64-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/aarch64-linux-gnu/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib32/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib64/qt4/plugins/:/home/hy/下载/squashfs-root/usr/lib/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/i386-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/x86_64-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib/aarch64-linux-gnu/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib32/qt5/plugins/:/home/hy/下载/squashfs-root/usr/lib64/qt5/plugins/:'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:35099'; builtin export HTTPS_PROXY='http://127.0.0.1:35099'; builtin export http_proxy='http://127.0.0.1:35099'; builtin export https_proxy='http://127.0.0.1:35099'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:35099'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:35099'; builtin export SOCKS_PROXY='socks5://127.0.0.1:34919'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:34919'; builtin export socks_proxy='socks5://127.0.0.1:34919'; builtin export socks5_proxy='socks5://127.0.0.1:34919'; builtin export ALL_PROXY='http://127.0.0.1:35099'; builtin export all_proxy='http://127.0.0.1:35099'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/76e0f5f22b970d12c04b1c4f98e8eb32/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/home/hy/ros_ws/livox_ws/install/livox_lidar_rosbag_converter:/home/hy/ros_ws/livox_ws/install/livox_ros_driver2:/opt/ros/humble'), ('VSCODE_PID', '3870')]), 'shell': False}
+[41.758804] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[41.759009] (fast_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.759065] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[41.759156] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[41.759251] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[41.759330] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[41.759416] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[41.759467] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[41.759515] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[41.759583] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[41.759653] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[41.759706] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[41.759783] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[41.759876] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[41.759959] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[41.760007] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[41.760054] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[41.760139] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[41.760188] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[41.760262] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[41.760335] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[41.760391] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[41.760482] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[41.760552] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[41.760599] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[41.760679] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[41.760764] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[41.760810] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[41.760857] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[41.760938] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[41.761025] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[41.761105] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[41.761212] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[41.761306] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761368] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761432] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761478] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[41.761547] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[41.761612] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[41.761667] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[41.761732] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761778] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761861] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.761951] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/ament_index/resource_index/rust_packages/fast_lio\n'}
+[41.762032] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rust/Cargo.toml\n'}
+[41.762103] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rust/build.rs\n'}
+[41.762169] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rust/src/lib.rs\n'}
+[41.762222] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rust/src/msg.rs\n'}
+[41.762270] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rust/src/msg/rmw.rs\n'}
+[41.762360] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[41.762454] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[41.762509] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[41.762603] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[41.762676] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[41.762744] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[41.762809] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[41.762884] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[41.762965] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[41.763051] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[41.763126] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/launch/odom_only.launch.py\n'}
+[41.763218] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[41.763284] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[41.763334] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[41.763380] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[41.763426] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[41.763472] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[41.763518] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[41.763563] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[41.763609] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[41.763655] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[41.763701] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[41.763747] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/package.dsv\n'}
+[41.769477] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[41.769579] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[41.769663] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[41.769745] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[41.769814] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[41.769868] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[41.769934] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.769980] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[41.770047] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[41.770110] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[41.770158] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/package.xml\n'}
+[41.770208] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[41.770355] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[41.770432] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[41.770500] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[41.770547] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[41.770593] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[41.770640] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[41.794365] (fast_lio) StdoutLine: {'line': b"Listing '/home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[41.794485] (fast_lio) StdoutLine: {'line': b"Listing '/home/hy/ros_ws/fast_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[41.796837] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[41.796978] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[41.797093] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[41.797187] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[41.797249] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[41.797298] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[41.797345] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[41.797391] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[41.797438] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[41.797489] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[41.797535] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[41.797582] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[41.797629] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[41.797676] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[41.797721] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[41.797768] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[41.797814] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[41.797860] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/hy/ros_ws/fast_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[41.798699] (fast_lio) CommandEnded: {'returncode': 0}
+[41.802060] (-) TimerEvent: {}
+[41.810432] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[41.810694] (-) EventReactorShutdown: {}

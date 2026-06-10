@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_transformer[0m
+[100%] Built target odom_transformer
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/lib/lio_odom/odom_transformer
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/launch/fast_lio_with_odom.launch.py
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/launch/minimal_odom.launch.py
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/launch/odom_transformer.launch.py
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/config/fast_lio_minimal.yaml
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/config/odom_transformer.yaml
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/ament_index/resource_index/package_run_dependencies/lio_odom
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/ament_index/resource_index/parent_prefix_path/lio_odom
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/environment/path.sh
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/environment/path.dsv
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/local_setup.bash
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/local_setup.sh
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/local_setup.zsh
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/local_setup.dsv
+-- Symlinking: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/package.dsv
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/ament_index/resource_index/packages/lio_odom
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/cmake/lio_odomConfig.cmake
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/cmake/lio_odomConfig-version.cmake
+-- Up-to-date symlink: /home/hy/ros_ws/fast_ws/install/lio_odom/share/lio_odom/package.xml

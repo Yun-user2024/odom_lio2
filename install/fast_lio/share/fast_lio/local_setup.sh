@@ -1,0 +1,1 @@
+/home/hy/ros_ws/fast_ws/build/fast_lio/ament_cmake_environment_hooks/local_setup.sh

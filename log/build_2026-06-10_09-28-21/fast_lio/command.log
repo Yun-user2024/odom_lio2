@@ -1,0 +1,2 @@
+Invoking command in '/home/hy/ros_ws/fast_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio
+Invoked command in '/home/hy/ros_ws/fast_ws/build/fast_lio' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hy/ros_ws/fast_ws/src/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hy/ros_ws/fast_ws/install/fast_lio

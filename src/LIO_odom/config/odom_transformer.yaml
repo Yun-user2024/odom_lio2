@@ -1,0 +1,21 @@
+/**:
+  ros__parameters:
+    input_odom_topic: "/Odometry"
+    output_odom_topic: "/odom"
+    input_parent_frame: "camera_init"
+    input_child_frame: "body"
+    output_parent_frame: "odom"
+    output_child_frame: "base_link"
+    publish_tf: true
+
+    debug:
+      enable: true
+      log_period_sec: 1.0
+
+    base_to_livox:
+      translation: [0.1, 0.0, 0.11]
+      rpy: [-0.034, 0.56395, 0.0]
+
+    body_to_livox:
+      translation: [-0.011, -0.02329, 0.04412]
+      rpy: [0.0, 0.0, 0.0]
