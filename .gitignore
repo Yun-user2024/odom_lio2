@@ -14,3 +14,20 @@ __pycache__/
 
 # 但保留 README（稍后单独添加）
 !src/LIO_odom/README.md
+
+# IDE配置
+.vscode/
+.codex/
+.agents/
+
+# 数据文件
+*.pcd
+test.pcd
+
+# 地图文件
+map/
+
+# 编译和日志文件（如果还没有）
+build/
+install/
+log/

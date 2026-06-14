@@ -1,0 +1,28 @@
+/**:
+  ros__parameters:
+    keyframe:
+      distance_threshold: 1.0
+      angle_threshold: 0.35
+      cloud_downsample: 0.5
+
+    scan_context:
+      max_range: 80.0
+      candidate_top_k: 15
+      history_skip: 15
+      match_threshold: 0.7
+
+    loop:
+      search_radius: 40.0
+
+    icp:
+      max_corr_dist: 2.0
+      max_iterations: 50
+      fitness_threshold: 2.0
+      max_corr_dist: 3.0
+
+    map:
+      corrected_leaf_size: 0.2
+      save_path: "/home/hy/ros_ws/fast_ws/map"
+
+    publish:
+      corrected_map: true
