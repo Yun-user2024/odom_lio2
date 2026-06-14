@@ -1,6 +1,6 @@
 # FAST-LIO2 ROS2 工作空间 — `fast_ws`
 
-基于 **ROS 2 Humble** 的完整 FAST-LIO2 建图工作空间，集成回环检测与 `odom → base_link` 坐标变换。适用于实时的纯激光 SLAM。
+基于 **ROS 2 Humble** 的完整 FAST-LIO2 建图工作空间，集成回环检测（主要针对的是楼梯+回廊结合的调参）与 `odom → base_link` 坐标变换。适用于实时的纯激光 SLAM。
 
 ---
 
