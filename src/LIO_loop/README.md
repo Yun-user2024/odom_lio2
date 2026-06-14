@@ -1,4 +1,4 @@
-# fast_lio_loop
+# LIO_loop
 
 Loop closure module for **FAST-LIO2 (ROS2 Humble)**.  
 Loosely-coupled ScanContext place recognition + GTSAM iSAM2 pose graph
@@ -10,7 +10,7 @@ corrects drift, and publishes a globally consistent trajectory and map.
 ## 数据流
 
 ```
-FAST-LIO (laserMapping)         fast_lio_loop (this package)
+FAST-LIO (laserMapping)         LIO_loop (this package)
 ┌────────────────────┐          ┌──────────────────────────────┐
 │  /Odometry         │─────────▶│  LoopClosureNode             │
 │  /cloud_registered │─────────▶│                              │
@@ -37,7 +37,7 @@ FAST-LIO (laserMapping)         fast_lio_loop (this package)
 ```bash
 cd /home/hy/ros_ws/fast_ws
 source /opt/ros/humble/setup.bash
-colcon build --packages-select fast_lio_loop
+colcon build --packages-select LIO_loop
 source install/setup.bash
 ```
 
@@ -54,7 +54,7 @@ ros2 launch fast_lio mapping.launch.py
 ```bash
 cd /home/hy/ros_ws/fast_ws
 source install/setup.bash
-ros2 launch fast_lio_loop loop_closure.launch.py
+ros2 launch LIO_loop loop_closure.launch.py
 ```
 
 两个节点独立运行，回环节点订阅 FAST-LIO 的话题即可工作。
@@ -64,7 +64,7 @@ ros2 launch fast_lio_loop loop_closure.launch.py
 ## 包结构
 
 ```
-src/fast_lio_loop/
+src/LIO_loop/
 ├── CMakeLists.txt
 ├── package.xml
 ├── README.md
@@ -72,7 +72,7 @@ src/fast_lio_loop/
 │   └── loop_closure.yaml              # 所有可调参数
 ├── launch/
 │   └── loop_closure.launch.py
-├── include/fast_lio_loop/
+├── include/LIO_loop/
 │   ├── keyframe.hpp                    # 关键帧数据结构
 │   ├── scan_context.hpp                # ScanContext 描述子
 │   ├── pose_graph.hpp                  # GTSAM iSAM2 封装

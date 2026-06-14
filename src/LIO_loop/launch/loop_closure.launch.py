@@ -5,11 +5,11 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    pkg_dir = get_package_share_directory('fast_lio_loop')
+    pkg_dir = get_package_share_directory('LIO_loop')
     config_path = os.path.join(pkg_dir, 'config', 'loop_closure.yaml')
 
     loop_closure_node = Node(
-        package='fast_lio_loop',
+        package='LIO_loop',
         executable='loop_closure_node',
         parameters=[config_path],
         output='screen',

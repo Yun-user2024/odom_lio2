@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>fast_lio_loop</name>
+  <name>LIO_loop</name>
   <version>0.1.0</version>
   <description>Loop closure module for FAST-LIO: ScanContext place recognition + GTSAM iSAM2 pose graph optimization</description>
 
